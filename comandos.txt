@@ -1,0 +1,3 @@
+- tsc nomearquivo.ts = compilar o arquivo.
+- tsc nomearquivo.ts --watch = compilar o arquivo e ficar monitorando para recompilar após alterações.
+- tsc --init = criação do arquivo tsconfig.
