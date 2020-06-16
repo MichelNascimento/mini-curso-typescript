@@ -8,6 +8,7 @@ type AccountInfo = {
     name: string
     email?: string // usando o "?" para o email ser opcional. Isso é igual a "string | undefined".
 }
+
 // definindo uma constante como sendo do tipo "AccountInfo".
 const account: AccountInfo = {
     id: 123,
@@ -24,7 +25,7 @@ const char: CharInfo = {
     level: 100
 }
 
-// defininfo o type "PlayerInfo" como sendo a interseção (intersection) de "AccountInfo" e "CharInfo". Ou seja, a união dos dois.
+// definindo o type "PlayerInfo" como sendo a interseção (intersection) de "AccountInfo" e "CharInfo". Ou seja, a união dos dois.
 type PlayerInfo = AccountInfo & CharInfo
 
 const player: PlayerInfo = {
